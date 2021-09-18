@@ -1,0 +1,34 @@
+void main() {
+  
+ var math,eng,urdu,phy,com,obt ,per,name;
+  name="soban";
+  math=10;
+  eng=60;
+  urdu=70;
+  phy=10;
+  com=8;
+  obt=math+eng+urdu+phy+com;
+   print("${name} Obtain marks is ${obt}");
+  per=(obt/500)*100;
+  print("${name} percentage is ${per}%");
+
+ 
+  if(per>=80){
+    print(" ${name} Grade A+");
+    }
+  else if(per>=70){
+    print("${name} Grade A");
+    
+  }
+  else if(per>=60){
+    
+    print("${name} Grade B");
+    
+  }
+  else if(per>=50){
+     print(" ${name} Grade c");
+  }
+  else if(per<40){
+     print(" ${name} you are  Fail");
+  }
+}
