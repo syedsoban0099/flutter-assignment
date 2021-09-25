@@ -1,0 +1,128 @@
+ 
+ //               QUESTION NO 1   
+  
+//   List<Map<String, dynamic>> users = [
+//     { "name": 'John', 'age': 18 },
+//     { "name": 'Jane', 'age': 21 },
+//     { "name": 'Mary', 'age': 23 },
+//     { "name": 'Mary', 'age': 27 },
+//   ];
+//   List names = List();
+//   users.forEach((u){
+//     if (names.contains(u["name"]));
+//     print("duplicate ${u["name"]}");
+//     else names.add(u["name"]);
+//   });
+  
+  
+            //    QUESTION NO 2
+  
+  
+  
+//      var listA=[1,2,3,4,5,6,7];
+//      var listB=[3,5,6,7,9,10];
+  
+//   print(listA.where((e) => !listB.contains(e)).toList());
+  
+//                QUESTION NO 3
+  
+//  var a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
+  
+  
+//   for(var i=0;i<a.length;i++){
+//     if((a[i]%2)==0){
+//      print(a[i]);
+      
+//     }
+ //            QUESTION 4;
+  
+//    var a=6;
+//   if(a%2==1)
+//   {
+    
+//     print("${a} is a prime");
+    
+//   }
+//     else{
+      
+    
+//      print("${a} is not a prime");
+//     }
+//     }
+  
+       //  question no 5;
+//   var a=7;
+//   for(int i=1;i<=15;i++){
+//     var b=a*i;
+//     print("${a} * ${i} = ${b}");
+    
+//   }
+  
+  //       QUESTION NO 6;
+// var list = ["apple","banana","mango", "orange", "strawberry"];
+//   for(int i=0;i<list.length;i++){
+    
+//    print(list[i]); 
+    
+//   }
+         //  question no 7;
+//   var a=5;
+//   for(int i=1;i<=100;i++){
+//     var b=a*i;
+//     print("${a} * ${i} = ${b}");
+    
+//   }
+  //          QUESTION NO 8;
+//   var TC=10;
+//   var FC=((9/5)*TC)+32;
+//   print("${TC} IS ${FC}");
+//  var fC=23;
+//   var tC=(fC-32)*(5/9);
+//   print("${fC} IS ${tC}");
+  
+   
+  //      QUESTION NO 9;
+  
+  
+//   var a=10;
+//   var b=30;
+//   var c=a%b;//operator
+//   var add=a+b;
+//   var sub=a-b;
+//   var multi=a*b;
+//   var divi=a/b;
+//   var mode=a%b;
+//   if(c==add){
+    
+//    print(add);
+//   }
+//   else if(c==sub){
+//     print(sub);
+//   }else if(c==multi){
+//     print(multi);
+//   }
+//   else if(c==divi){
+//     print(divi);
+//   }
+//   else if(c==mode){
+//     print(mode);
+//   }
+  
+  //        QUESTION NO 10
+  
+//  var a="b";
+  
+//   var b =["a","e","i","o","u"];
+//   for(int i=0;i<b.length;i++){
+//     if(b[i]==a){
+//       print("${a} is a vowel ");
+//       break;
+//     }
+//     else{
+//       print("${a}is not a vowel ");
+//       break;
+//     }
+//   }
+  
+// } 
+  
